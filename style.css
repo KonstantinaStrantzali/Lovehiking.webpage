@@ -356,11 +356,28 @@ footer{
   }
 }
 
-@media screen and (max-width:800) {
+@media screen and (max-width:800px) {
 
 #photos{
 column-count: 2;
 }
   
+}
+@media screen and (max-width:350px){
+#outer-hikers-image {
+  padding-left:30px;
+}
+}
+@media screen and (max-width:800px){
+  .form-section{
+
+  }
+}
+
+@media screen and (max-width:550px){
+  .form-section{
+margin-right:-50px;
+
+  }
 }
  
